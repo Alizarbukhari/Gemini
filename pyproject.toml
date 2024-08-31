@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "gemini"
+version = "0.1.0"
+description = ""
+authors = ["Alizarbukhari <alizar.fsd@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-community = "^0.2.12"
+python-dotenv = "^1.0.1"
+langchain-google-genai = "^1.0.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
